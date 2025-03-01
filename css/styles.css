@@ -329,7 +329,11 @@ h1 {
     font-size : 2em;
     margin    : 0.67em 0;
 }
-
+.arrive {
+   
+        font-size : 2em;
+        margin    : 0.67em 0;
+}
 hr {
     box-sizing : content-box;
     height     : 0;
@@ -2559,7 +2563,7 @@ td:last-child {
     display      : inline-block;
     margin       : 0 1.6rem var(--vspace-0_5) 0;
     padding      : 0 1.5rem 0 0;
-    border-right : 1px solid var(--color-border);
+   /* border-right : 1px solid var(--color-border);*/
 }
 
 .stats-tabs li:last-child {
@@ -2575,11 +2579,11 @@ td:last-child {
     font-weight : 600;
     line-height : var(--vspace-1_5);
     border      : none;
-    color       : var(--color-text-dark);
+    color       : rgb(255, 255, 255);
 }
 
 .stats-tabs li a:hover {
-    color : var(--color-1);
+    color :rgb(255, 255, 255);
 }
 
 .stats-tabs li a em {
@@ -2590,7 +2594,7 @@ td:last-child {
     line-height : var(--vspace-0_5);
     font-weight : 400;
     font-style  : normal;
-    color       : var(--color-text-light);
+    color       : rgb(225, 225, 225);
 }
 
 
