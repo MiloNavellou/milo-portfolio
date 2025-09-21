@@ -301,7 +301,10 @@
     }
 }
 
-
+.round {
+     border-top-right-radius: 15pt;   /* coin en haut à droite */
+  border-bottom-right-radius: 15pt; /* coin en bas à droite */
+}
 
 /* ====================================================================
  * # NORMALIZE
